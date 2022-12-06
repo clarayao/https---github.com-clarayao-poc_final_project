@@ -1,5 +1,12 @@
 /* Color Pallete:
-
+    header & profile background: #ffffff
+    img background: #e4e7eb
+    shadow: #b1b4b8
+    text-black: #181a1f
+    text-blue: #1e72e1
+    un-hovered grey: #e4e7eb
+    hovered grey: #d9dade
+    darker grey: #b1b4b8
 */
 body {
     margin: 0px;
@@ -20,6 +27,54 @@ h1 {
     background-color: #ffffff;
     box-shadow: 5px 1px 5px #b1b4b8;
     z-index: 4;
+
+    display: flex;
+}
+.logo-wrapper {
+    width: 4%;
+    height: 100%;
+}
+.logo-wrapper img{
+    height: 80%;
+    width: auto;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    /* margin-top: 8%; */
+}
+.info-wrapper {
+    width: 70%;
+    height: 70%;
+    background-color: #e4e7eb;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-direction: row;
+}
+.info-wrapper:hover {
+    background-color: #d9dade;
+    cursor: pointer;
+}
+.info-wrapper:hover p{
+    background-color: #9c9c9f;
+}
+.info-wrapper img {
+    height: 70%;
+    width: auto;
+    position: relative;
+    top: 50%;
+    left: 1%;
+    transform: translate(0, -50%);
+}
+.info-wrapper p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -30%;
+    left: 5%;
+    color: #b1b4b8;
+    /* transform: translate(0, 50%); */
 }
  /* ------------------------ whole webpage except haeder bar ------------------- */
 .website-wrapper {
@@ -81,9 +136,10 @@ h1 {
     /* outline: 2px solid rgb(140, 0, 255); */
     color: #181a1f;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e4e7eb;
 }
 #prediction-explanation:hover {
-    background-color: #b1b4b8;
+    background-color: #d9dade;
 }
 .interest {
     margin: 5px;
@@ -133,13 +189,13 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%); */
     z-index: 10;
-    color: rgb(0, 0, 0);
+    color: #181a1f;
     font-size: 15px;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .rec:hover {
-    background-color: #b1b4b8;
+    background-color: #d9dade;
 }
 
 /* .rec:hover .rec-text{

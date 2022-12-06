@@ -145,7 +145,7 @@ var faceCanvas = function (sketch) {
         }
     }
 }
-// new p5(faceCanvas);
+new p5(faceCanvas);
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IDLE TIMER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 let timer, currSeconds = 0;
@@ -171,7 +171,7 @@ function startIdleTimer() {
     document.querySelector(".secs").textContent = currSeconds;
     /* Display the timer text */
     document.querySelector(".timerText").style.display = "block";
-    document.getElementById("idle-canvas").style.backgroundColor = "#c9ccd1"
+    document.getElementById("idle-canvas").style.backgroundColor = "#d9dade"
 
     // Accumulated time for each category
     document.getElementById("business-img").addEventListener("mouseenter", function () { onBusDiv = true; });
@@ -250,7 +250,7 @@ function startIdleTimer() {
 function resetTimer() {
     /* Hide the timer text */
     document.querySelector(".timerText").style.display = "none";
-    document.getElementById("idle-canvas").style.backgroundColor = "#ffffff"
+    document.getElementById("idle-canvas").style.backgroundColor = "#e4e7eb"
     document.getElementById("idle-canvas").style.transition = ".02s ease-in-out";
 
     /* Clear the previous interval */
