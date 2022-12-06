@@ -1,4 +1,6 @@
 # Politics of Code Final Project
+![alt text](https://github.com/clarayao/poc_final_project/blob/201c389b55c7f5f5777901e7133ab1cb7049373d/img/A3A1085F-46F7-4D04-A7F0-5839F4ED7383_1_105_c.jpeg "Project Scrren Shot")
+
 ### Inspiration & Concept
 Inspired by the “[Privacy Analyzer](https://privacy.net/analyzer/)”, a website that exposes users to exploitation of information that web browsers deploy, 
 I was very much intrigued by this phenomenon. Often ignored, digital technologies, including web browsers, social media, and even cameras on the street, 
