@@ -105,7 +105,7 @@ var faceCanvas = function (sketch) {
             const boxHeight = alignedRect._box._height;
 
             sketch.noFill();
-            sketch.stroke(161, 95, 251);
+            sketch.stroke("#1e72e1");
             sketch.strokeWeight(2);
             sketch.rect(x, y, boxWidth, boxHeight);
         }
@@ -119,7 +119,7 @@ var faceCanvas = function (sketch) {
         if (detections.length > 0) {
             for (let i = 0; i < detections.length; i++) {
                 let points = detections[i].landmarks.positions;
-                sketch.stroke(44, 169, 225);
+                sketch.stroke("#1e72e1");
                 sketch.strokeWeight(3);
                 //important points for identifying smiling or not
                 sketch.point(points[60]._x, points[60]._y)
