@@ -1,4 +1,5 @@
 # Politics of Code Final Project
+[Click to View the Project](https://clarayao.github.io/poc_final_project/)
 ![alt text](https://github.com/clarayao/poc_final_project/blob/201c389b55c7f5f5777901e7133ab1cb7049373d/img/A3A1085F-46F7-4D04-A7F0-5839F4ED7383_1_105_c.jpeg "Project Scrren Shot")
 
 ### Inspiration & Concept
